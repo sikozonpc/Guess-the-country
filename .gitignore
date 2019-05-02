@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 node_modules/
 test.js
 ~*
+=======
+test.js
+node_modules/
+*~
+>>>>>>> about-page
