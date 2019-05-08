@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Git test website</title>
+		<title>Guess the country</title>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<main>
-			<h1>Header</h1>
-			<p>Paragraph</p>
-			<a href="about.html">About this project</a>
-			<a href="https://taquelim.netlify.com">About me</a>
-			<img src="images/breaching_whale.jpg" alt="breaching whale" />
+		<main class="app">
+			<h2 class="answer-type"></h2>
+			<p class="score">0 points</p>
+			<div class="country-box">
+				<div class="flag-answer"></div>
+				<p class="country-name-tip"></p>
+			</div>
+			<div class="controls">
+				<input type="text" class="answer-box" placeholder="Answer..." />
+				<button class="check-btn">Check</button>
+			</div>
 		</main>
+		<script src="app.js"></script>
 	</body>
 </html>
