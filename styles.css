@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+.app {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	background: linear-gradient(297deg, #06beb6, #48b1bf);
+}
+.country-box {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-20%, -50%);
+}
+.flag {
+	max-width: 300px;
+	max-height: 300px;
+	border: 1px solid gray;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+	transition: 0.3s all;
+	cursor: grab;
+}
+.flag:hover {
+	transform: scale(1.3);
+}
+.country-name-tip {
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+
+.score {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.controls {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-20%, -50%);
+}
+.answer-box {
+	font-size: 20px;
+	color: #444;
+	border: 0;
+	border-radius: 5px;
+	height: 40px;
+	max-width: 300px;
+	padding: 5px 10px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.check-btn {
+	border: 0;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 5px;
+	color: #444;
+	cursor: pointer;
+	background-color: #fff;
+	width: 100px;
+	height: 40px;
+}
+
+.answer-type {
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+}
+.country {
+	color: #333;
+	font-weight: bold;
+}
+.correct {
+	color: rgb(8, 250, 109);
+}
+.failed {
+	color: orangered;
+}
+
+footer {
+	padding: 15px;
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+}
+a {
+	color: greenyellow;
+}
