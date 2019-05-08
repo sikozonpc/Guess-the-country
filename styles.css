@@ -99,37 +99,3 @@ footer {
 a {
 	color: greenyellow;
 }
-
-@-webkit-keyframes AnimationName {
-	0% {
-		background-position: 0% 53%;
-	}
-	50% {
-		background-position: 100% 48%;
-	}
-	100% {
-		background-position: 0% 53%;
-	}
-}
-@-moz-keyframes AnimationName {
-	0% {
-		background-position: 0% 53%;
-	}
-	50% {
-		background-position: 100% 48%;
-	}
-	100% {
-		background-position: 0% 53%;
-	}
-}
-@keyframes AnimationName {
-	0% {
-		background-position: 0% 53%;
-	}
-	50% {
-		background-position: 100% 48%;
-	}
-	100% {
-		background-position: 0% 53%;
-	}
-}
